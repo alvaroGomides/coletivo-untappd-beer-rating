@@ -1,0 +1,117 @@
+/*
+ * General styles.
+ * Not necessary for the component to work
+*/
+.rating-holder {
+  display: inline-block;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.caps {
+    align-items: center;
+    display: inline-flex;
+    margin-right: 8px;
+    padding:0;
+    float:left;
+    clear: left;
+
+}
+
+.caps.small .cap {
+    width: 15px;
+    height: 15px;
+    margin-right:2px
+}
+
+.caps.large .cap {
+    width: 26px;
+    height: 26px;
+    margin-right:8px
+}
+
+.caps .cap {
+    background-image: url(../img/cap@2x.png);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin-right:4px
+}
+
+.caps .cap:last-child {
+    margin-right:0
+}
+
+.caps .cap.cap-10, .caps .cap.cap-20 {
+    background-image: url(../img/cap-10@2x.png);
+    background-size:cover
+}
+
+.caps .cap.cap-20 {
+    background-image:url(../img/cap-20@2x.png)
+}
+
+.caps .cap.cap-25, .caps .cap.cap-30 {
+    background-image: url(../img/cap-25@2x.png);
+    background-size:cover
+}
+
+.caps .cap.cap-30 {
+    background-image:url(../img/cap-30@2x.png)
+}
+
+.caps .cap.cap-40, .caps .cap.cap-50 {
+    background-image: url(../img/cap-40@2x.png);
+    background-size:cover
+}
+
+.caps .cap.cap-50 {
+    background-image:url(../img/cap-50@2x.png)
+}
+
+.caps .cap.cap-60, .caps .cap.cap-70 {
+    background-image: url(../img/cap-60@2x.png);
+    background-size:cover
+}
+
+.caps .cap.cap-70 {
+    background-image:url(../img/cap-70@2x.png)
+}
+
+.caps .cap.cap-75, .caps .cap.cap-80 {
+    background-image: url(../img/cap-75@2x.png);
+    background-size:cover
+}
+
+.caps .cap.cap-80 {
+    background-image:url(../img/cap-80@2x.png)
+}
+
+.caps .cap.cap-100, .caps .cap.cap-90 {
+    background-image: url(../img/cap-90@2x.png);
+    background-size:cover
+}
+
+.caps .cap.cap-100 {
+    background-image:url(../img/cap-100@2x.png)
+}
+
+.untappd-link {
+    color:#000;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.untappd-link .num{
+    color:#aaaaaa;
+    float: left;
+    display: inline-flex;
+}
+.untappd-link .small{
+    font-size: 12px;
+    float: left;
+    display: block;
+    clear: both;
+    margin-bottom: 4px;
+}
